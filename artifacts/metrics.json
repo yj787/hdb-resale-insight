@@ -1,0 +1,16 @@
+{
+  "mae": 32979.5055344459,
+  "rmse": 47040.6160350759,
+  "r2": 0.9522512187331686,
+  "mape": 0.0495478246815408,
+  "interval_target_coverage": 0.8,
+  "interval_actual_coverage": 0.7762360446570973,
+  "interval_log_radius": 0.07325022073961485,
+  "train_rows": 218384,
+  "calibration_rows": 6021,
+  "test_rows": 12540,
+  "train_end": "2025-10-01",
+  "calibration_start": "2025-11-01",
+  "test_start": "2026-02-01",
+  "test_end": "2026-07-01"
+}

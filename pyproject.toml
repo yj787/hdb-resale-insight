@@ -1,0 +1,20 @@
+[project]
+name = "hdb-resale-insight"
+version = "0.1.0"
+description = "HDB resale price estimation with calibrated prediction intervals"
+requires-python = ">=3.11"
+dependencies = [
+  "catboost>=1.2,<2",
+  "fastapi>=0.115,<1",
+  "numpy>=1.26,<3",
+  "pandas>=2.2,<3",
+  "pydantic>=2.10,<3",
+  "uvicorn[standard]>=0.34,<1",
+]
+
+[project.optional-dependencies]
+dev = ["httpx>=0.28,<1", "pytest>=8,<9"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
